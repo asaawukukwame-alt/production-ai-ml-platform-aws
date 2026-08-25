@@ -8,6 +8,13 @@ TruckGuard AI is a production-style AI/ML application that evaluates trucking Ho
 
 This project connects transportation domain knowledge with applied AI/ML engineering.
 
+## Live Demo
+
+- Live API Docs: https://truckguard-ai.onrender.com/docs
+- Health Check: https://truckguard-ai.onrender.com/health
+- Prediction Endpoint: POST https://truckguard-ai.onrender.com/predict
+
+
 
 
 ## What It Does
@@ -117,5 +124,6 @@ Create and activate a virtual environment:
 python -m venv .venv
 
 .\\.venv\\Scripts\\Activate.ps1
+
 
 
