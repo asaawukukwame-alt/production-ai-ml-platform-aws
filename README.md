@@ -1,4 +1,4 @@
-\# TruckGuard AI — Production AI/ML Platform for Trucking HOS Risk
+# TruckGuard AI — Production AI/ML Platform for Trucking HOS Risk
 
 
 
@@ -10,7 +10,7 @@ This project connects transportation domain knowledge with applied AI/ML enginee
 
 
 
-\## What It Does
+## What It Does
 
 
 
@@ -18,17 +18,17 @@ A dispatcher, safety manager, or driver enters a driver's current HOS clock situ
 
 
 
-\- Driving hours today
+- Driving hours today
 
-\- Hours inside the 14-hour duty window
+- Hours inside the 14-hour duty window
 
-\- Driving hours since last qualifying break
+- Driving hours since last qualifying break
 
-\- Cycle hours used
+- Cycle hours used
 
-\- 60/70-hour cycle limit
+- 60/70-hour cycle limit
 
-\- Consecutive off-duty hours
+- Consecutive off-duty hours
 
 
 
@@ -36,33 +36,33 @@ TruckGuard AI returns:
 
 
 
-\- Final risk level: LOW, MEDIUM, or HIGH
+- Final risk level: LOW, MEDIUM, or HIGH
 
-\- Whether the driver can continue driving
+- Whether the driver can continue driving
 
-\- Remaining drive hours
+- Remaining drive hours
 
-\- Remaining duty-window hours
+- Remaining duty-window hours
 
-\- Remaining cycle hours
+- Remaining cycle hours
 
-\- Break-required status
+- Break-required status
 
-\- 34-hour restart eligibility
+- 34-hour restart eligibility
 
-\- ML prediction
+- ML prediction
 
-\- ML confidence score
+- ML confidence score
 
-\- Plain-English explanation
+- Plain-English explanation
 
-\- Recommended action
+- Recommended action
 
-\- Database log ID
+- Database log ID
 
 
 
-\## Project Status
+## Project Status
 
 
 
@@ -70,33 +70,33 @@ Completed:
 
 
 
-\- HOS rules engine
+- HOS rules engine
 
-\- Synthetic HOS data generation
+- Synthetic HOS data generation
 
-\- Custom Naive Bayes ML risk classifier
+- Custom Naive Bayes ML risk classifier
 
-\- MLflow experiment tracking with SQLite backend
+- MLflow experiment tracking with SQLite backend
 
-\- Saved model artifact
+- Saved model artifact
 
-\- Prediction service
+- Prediction service
 
-\- Explanation service
+- Explanation service
 
-\- FastAPI API
+- FastAPI API
 
-\- SQLite prediction logging
+- SQLite prediction logging
 
-\- Prediction history endpoint
+- Prediction history endpoint
 
-\- Streamlit dashboard
+- Streamlit dashboard
 
-\- Automated pytest test suite
+- Automated pytest test suite
 
 
 
-\## Tech Stack
+## Tech Stack
 
 
 
@@ -104,7 +104,7 @@ Python, FastAPI, Streamlit, pandas, NumPy, SQLAlchemy, SQLite, MLflow, joblib, P
 
 
 
-\## Run Locally
+## Run Locally
 
 
 
@@ -117,4 +117,5 @@ Create and activate a virtual environment:
 python -m venv .venv
 
 .\\.venv\\Scripts\\Activate.ps1
+
 
